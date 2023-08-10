@@ -1,7 +1,7 @@
 {
   "name": "@williamsjm/rick-and-morty",
   "scripts": {
-    "start": "webpack serve -- -port 8080",
+    "start": "webpack serve --port 8080",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
@@ -56,6 +56,8 @@
     "@types/styled-components": "^5.1.26",
     "@types/systemjs": "^6.1.1",
     "@types/webpack-env": "^1.16.2",
+    "antd": "^5.8.2",
+    "axios": "^1.4.0",
     "i18next": "^23.4.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

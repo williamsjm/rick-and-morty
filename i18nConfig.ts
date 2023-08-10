@@ -7,20 +7,24 @@ const resources = {
   en: {
     translation: {
       welcome_message: "Welcome",
-      // ... otras traducciones en inglés
+      characters: "Characters",
+      alive: "Alive",
+      unknown: "Unknown",
     },
   },
   es: {
     translation: {
       welcome_message: "Bienvenido",
-      // ... otras traducciones en español
+      characters: "Personajes",
+      alive: "Vivo",
+      unknown: "Desconocido",
     },
   },
 };
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: "en", // idioma predeterminado
+  lng: "en",
   interpolation: {
     escapeValue: false,
   },
