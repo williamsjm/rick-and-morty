@@ -7,6 +7,11 @@ interface Character {
   name: string;
   image: string;
   status: string;
+  species: string;
+  gender: string;
+  location: {
+    name: string;
+  };
 }
 
 const useRickMortyCharacters = () => {
